@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"
+    <meta name="viewport" content="width-device-width, initial-scale = 1.0">
+	<title>Arthik Dasari's Website</title>
+    <link rel="stylesheet" href = "style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon_io/apple-touch-ADfavicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon_io/ADfavicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon_io/ADfavicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <script src="https://kit.fontawesome.com/a8b254a0b6.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/tt-commons');
+</style>
+
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/Website_header_name.JPG" alt="logo" height = 150 width = 350>
+            <ul>
+                <!-------------- <li> <a href="#header"> <strong>Home</strong></a></li> -------------->
+                <li> <a href="#about"> <strong>About</strong></a></li>
+                <li> <a href="#services"> <strong>Interests</strong></a></li>
+                <li> <a href="#portfolio"> <strong>Professional Experience</strong></a></li>
+                <li> <a href="#favoriteartists"> <strong>My Projects</strong></a></li>
+                <li> <a href="#contact"> <strong>Contact Me</strong></a></li>
+                <!--------------  <i class="fa-solid fa-circle-xmark"></i> -------------->
+            </ul>
+            <!-------------- <i class="fa-solid fa-bars"></i>-------------->
+        </nav>
+        <div class="header-text">
+            <p>My First Personal Website</p>
+            <h1>Hi this is my <br><span> first </span> personal <br> website.</h1>
+        </div>
+    </div>
+</div>
+<!-------------- about -------------->
+<div id= "about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/second_pic2.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>My name is Arthik and welcome to my personal website! 
+                    <br>
+                    I am a rising senior at Rensselaer Polytechnic Institute majoring in Computer science with a minor in Economics and a minor in Artificial Intelligence.
+                    <br>
+                    I am from Glastonbury, CT where I have lived since I was 5 years old.
+                    <br>
+                    I am currently open to new work opportunities and eager to take on challenging technical projects to further my learning. 
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('tools')">Tools</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('clubs')">Clubs & Activities</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span> Languages </span> <br> English(fluent), Spanish(intermediate), Telugu(basic) </li>
+                        <li><span> Hard Skills </span> <br> C++, Python, C, SQL, Linux Bash, Java, HTML, CSS, JavaScript, VBA, MATLAB, Prolog(logic programming language), MIPS(assembly language), Gosu(company-specific language built on Java)</li>
+                        <li><span> Certifications </span> <br> C++ Certified Associate Programmer (C++ Institute) (August 2021)</li>
+                        <li><span> Honors </span> <br> Rensselaer Leadership Award <br> Rensselaer Recognition Award</li>
+                        <li><span> Soft Skills </span> <br> Leadership, Teamwork, Attention to detail, Quick self-learner</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="tools">
+                    <ul>
+                        <li><span> IDEs/Text Editors/GUIs: </span> <br> Visual Studio Code, Sublime Text, Eclipse, Spyder, PuTTy terminal, Toad, Snowflake GUI </li>
+                        <li><span> Microsoft: </span> <br> Windows 10, Excel, SharePoint, Word, Teams, Powerpoint, OneNote</li>
+                        <li><span> Google: </span> <br> Drive, Docs, Slides, Sheets, Forms</li>
+                        <li><span> Other: </span> <br> GitHub/git bash, Jenkins, UDeploy, Ubuntu 20.04.2(Linux-based operating system shell), Dr.Memory, Dr.Racket </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span> 2020-2024 </span> <br> Rensselaer Polytechnic Institute (Bachelors degree in Computer Science)</li>
+                        <li><span> 2016-2020 </span> <br> Glastonbury High School</li>
+                        <li><span> 2007-2016 </span> <br> Nayaug Elementary School (k-5th), Gideon Wells Middle School(6th), Smith Middle School(7th-8th) </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="clubs">
+                    <ul>
+                        <li><span> Rensselaer Polytechnic Institute </span> <br> Roebling Investment Club <br> RPI Indian Student Association <br> RPI Club Soccer <br> RPI Club Basketball </li>
+                        <li><span> Glastonbury High School </span> <br> GHS varisty boys soccer <br> Camp Sunrise <br> GHS band <br> TOPS Soccer volunteer <br> GHS freshman boys basketball <br> Glastonbury Basketball Asscoiation Coach </li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+</div>
+
+<!-------------- interests -------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Interests</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-basketball"></i>              
+                <h2>Sports</h2>
+                    <p>I enjoy watching and playing sports. <br>
+                        In high school I played on the varsity soccer team all four years and won two Class LL state championships. <br>
+                        When I am at RPI I play on the club soccer and club basketball team. <br> I love watching NCAA March Madness and the NBA.
+                    </p>
+                   <!-------------- <a href="#">Learn more</a> -------------->
+            </div>
+            <div>
+                <i class="fa-solid fa-handshake"></i>
+                <h2>Volunteering</h2>
+                <p>I have always had a passion for volunteering to help special needs children. <br>
+                    In high school I was part of two major town organizations that volunteered to help special needs children in the fall, spring, and summer.<br> <a href="https://www.leagueathletics.com/Page.asp?n=99439&org=GLASTONBURYSOCCER.ORG">TOPS soccer</a> <br> <a href="https://www.glastonburyct.gov/departments/department-directory-i-z/parks-and-recreation/camp-sunrise">Camp Sunrise</a></p>
+                   <!-------------- <a href="#">Learn more</a> -------------->
+                </div>
+            <div>
+                <i class="fa-solid fa-drum"></i>
+                <h2>Drumset</h2>
+                <p> Since I was able to walk I have been playing the drums. <br>
+                    When I was in high school I did percussion for the GHS band. I have been playing the drum set for my church ever since I finished high school. I love listening to music with complicated beats because I know how hard it is to make those beats. </p>
+                   <!-------------- <a href="#">Learn more</a> -------------->
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn"> To Top</a>
+</div>
+
+<!-------------- Experience -------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"> Professional Experience</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/the_hartford_logo.jpg">
+                <div class="layer">
+                    <h3><strong>The Hartford</strong></h3>
+                    <p> SASE (Society of Asian Scientists and Engineers) provides professional workshops,
+                        company recruitment events, and access to potential scholarships and awards. <br>
+                        I am currently the Freshman Representative, and will be Secretary for the 2023-2024 Academic Year.</p>
+                    <a href="https://www.thehartford.com/"> <i class="fa-solid fa-up-right-from-square"></i> </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/mathworks_logo.jpg">
+                <div class="layer">
+                    <h3><strong>Mathworks</strong></h3>
+                    <p>Hong Kong Student Association is a cultural club on campus that hosts cultural
+                        and social events. These events include Hot Pot, bowling, shrinky dinks, and
+                        making egg puffs. <br>
+                        I am currently a Prime-Tier Member of the club and plan to run for HKSA's
+                        2023-2024 Executive Board. 
+                    </p>
+                    <a href="https://www.mathworks.com/"> <i class="fa-solid fa-up-right-from-square"></i> </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/kumon_logo.jpg">
+                <div class="layer">
+                    <h3><strong>Kumon</strong></h3>
+                    <p>Eighth Wonder is the largest dance club at RPI that specialises in hip-hop and
+                        k-pop. For the current 2023 Spring Semester, I have completed one dance and am
+                        currently learning three new ones. This club is a great way for me to socialize 
+                        while engaging in physical activity. </p>
+                    <a href="https://www.kumon.com/"> <i class="fa-solid fa-up-right-from-square"></i> </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/tutor_box_logo.jpg">
+                <div class="layer">
+                    <h3><strong>Independent Tutor</strong></h3>
+                    <p>Eighth Wonder is the largest dance club at RPI that specialises in hip-hop and
+                        k-pop. For the current 2023 Spring Semester, I have completed one dance and am
+                        currently learning three new ones. This club is a great way for me to socialize 
+                        while engaging in physical activity. </p>
+                    <a href="https://www.collegeboard.org/"> <i class="fa-solid fa-up-right-from-square"></i> </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn"> To Top</a>
+</div>
+
+
+<!-------------- Projects -------------->
+<div id="favoriteartists">
+    <div class="container">
+        <h1 class="sub-title"> My Projects </h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/finops_box_logo.jpg">
+                <div class="layer">
+                    <h3><strong>FinOps Analytics</strong></h3>
+                    <p> 
+                        FinOps Analytics was a real world project that I was given during my internship at The Hartford in the summer of 2023. <br>
+                        Please click here to read more about what this project entailed.
+                    </p>
+                    <a href="https://www.youtube.com/watch?v=pbNs7tAUFkk"> <i class="fa-solid fa-up-right-from-square"></i> </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/rcos_box_logo.jpg">
+                <div class="layer">
+                    <h3><strong>RCOS</strong></h3>
+                    <p> RCOS is a club/course that students can enroll in to either help an existing open source project or create their own project. <br>
+                        I created this personal website for my RCOS project. I used HTML and CSS to create this website from scratch. I am using Git Pages to host my website.
+                    </p>
+                    <a href="https://science.rpi.edu/computer-science/programs/undergrad/bs-computerscience/rensselaer-center-open-source-rcos"> <i class="fa-solid fa-up-right-from-square"></i> </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/rpi_box_logo.jpg">
+                <div class="layer">
+                    <h3><strong>Study of Big O</strong></h3>
+                    <p>
+                        I did this project to 
+                    </p>
+                    <a href="https://github.com/dasaria8/DS_Big_O_Study"> <i class="fa-solid fa-up-right-from-square"></i> </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn"> To Top</a>
+</div>
+
+
+<!-------------- contact -------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> Arthik.Dasari@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>860-682-0444</p>
+                <p><i class="fa-brands fa-square-snapchat"></i>dasari25_08</p>
+
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/arthik-dasari-939a45223/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/dasaria8"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/arthik.dasari/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/arthik.dasari/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.tiktok.com/@arthik.dasari"><i class="fa-brands fa-tiktok"></i></a>
+                    <!-- <a href="https://open.spotify.com/user/arthik.dasari"><i class="fa-brands fa-spotify"></i></a> -->
+                </div>
+                <a href="Arthik_Dasari2.docx" download class="btn btn2">Download My Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder= "Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright ©ArthikDasari</p>
+    </div>
+</div>
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzYt9q45FEySIsML2B3BbFBMGT-kJXRkacDoXQjsVQ7YWojZ0b77xPH-4pPMNKObLm5/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully."
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
