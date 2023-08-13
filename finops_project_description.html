@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale = 1.0">
+    <title>FinOps Analytics</title>
+</head>
+<body>
+    <table id="header" border="0" width="100%"
+        cellpadding="0" cellspacing="0" bgcolor="#82CDFF">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15"
+                    cellspacing="0" width="100%" align="center">
+                    <tr>
+                        <td>
+                            
+
+                        </td>
+
+                        <td>
+                            <font face="Comic sans MS" size="6">
+                                <b>FinOps Analytics Project</b>
+                            </font>
+                        </td>
+
+                        <td width="15%">
+                            
+                        </td>
+
+                        <td>
+                            <a href="#about" style="text-decoration:none">
+                                <font face="Verdana" size="5" color=black>
+                                    Problem
+                                </font>
+                            </a>
+                        </td>
+
+                        <td>
+                            |
+                        </td>
+
+                        <td>
+                            <a href="#solution" style="text-decoration:none">
+                                <font face="Verdana" size="5" color=black>
+                                    Solution
+                                </font>
+                            </a>
+                        </td>
+
+                        <td>
+                            |
+                        </td>
+
+                        <td>
+                            <a href="#contributions" style="text-decoration:none">
+                                <font face="Verdana" size="5" color=black>
+                                    Contributions
+                                </font>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--Header(end)-->
+
+
+    <!--Problem(start)-->
+    <table id="about" border="0" width="100%"
+        cellpadding="0" cellspacing="0">
+        <tr>
+            <td>
+                <table border="0" cellpadding="0"
+                    cellspacing="0" width="80%">
+                    <tr>
+                        <td height="100" colspan="2">
+                            <font face="Verdana" size="6"
+                                color="#82CDFF">
+                                <b>Problem</b>
+                            </font>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td width="80%">
+                            <font face="Verdana" size="4"
+                                color="black">
+                                For a general description of what Cloud FinOps is: <a href="https://cloud.google.com/learn/what-is-finops"> https://cloud.google.com/learn/what-is-finops </a>
+
+                                <hr color="black">
+                                The problem that the company was facing was that one department was taking the hit for all the costs produced from different platforms. The company uses several different cloud consumption platforms which are used to support different teams in the company.
+                                <hr color="black">
+                                However, because there was no way to track how much cloud storage cost each individual team was incurring, those teams were unaware of or not taking responsibility for their specific cloud storage costs.
+                                <hr color="black">
+                                This is especially detremental to the platform teams because it is millions of dollars that is not being tracked and allocated back to the teams they support.
+                                <hr color="black">
+                                Management also does not have a clear picture of how much their team is costing. This could lead to inefficiency in the future.
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+                <hr color="black">
+                <hr color="black">
+                <hr color="black">
+            </td>
+        </tr>
+    </table>
+    <!--Problem(end)-->
+
+    <!--Solution(start)-->
+    <table id="solution" border="0" width="100%"
+        cellpadding="0" cellspacing="0">
+        <tr>
+            <td>
+                <table border="0" cellpadding="0"
+                    cellspacing="0" width="80%">
+                    <tr>
+                        <td height="100" colspan="2">
+                            <font face="Verdana" size="6"
+                                color="#82CDFF">
+                                <b>Solution</b>
+                            </font>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td width="80%">
+                            <font face="Verdana" size="4"
+                                color="black">
+                                So three other interns and I were assigned to this FinOps Analytics project to help automate the process of allocating those cloud storage consumption costs back to the specific teams.
+                                <hr color="black">
+                                We accomplished this by building a data warehouse that contained the cost information from the platform cources. This system includes Python scripts, SQL files, and Linux bash scripts that work together to Extract, Load, and Tranform the data.
+                                <hr color="black">
+                                We also developed dashboards at the end of our internships using Tableau to present our findings to business users and managers so they could easily comprehend which costs were associated with which teams.
+                                <hr color="black">
+                                <b>Note:</b>
+                                <br>This system was already in motion before we were assigned to it so we took a couple weeks to learn where everything was and study the project's GitHub wiki page. We also used SQL to drill down in the data and see how it flowed through the different tables when the system was run.
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+                <hr color="black">
+                <hr color="black">
+                <hr color="black">
+            </td>
+        </tr>
+    </table>
+    <!--Solution(end)-->
+
+
+    <!--Contributions(start)-->
+    <table id="contributions" border="0" width="100%"
+        cellpadding="0" cellspacing="0">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15"
+                    cellspacing="0" width="80%" align="center">
+                    <tr>
+                        <td height="180" align="center"
+                            valign="middle" colspan="2">
+                            <font face="Verdana" size="7"
+                                color="#82CDFF">
+                                Contributions
+                            </font>
+                            <hr color="#82CDFF" width="90">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td height="10">
+                            <font face="Times New Roman"
+                                size="5" color="black">
+                                <ul>
+                                    <li>
+                                        Used Python to automatically pull data from a SQL Server database, transform it with Pandas, and upload it to an AWS S3 bucket.
+                                    </li>
+                                    <br>
+                                    <li>
+                                        Developed two Linux bash scripts to automate the manual twenty-step process of pulling data from production to non-production environments.
+                                    </li>
+                                    <br>
+                                    <li>
+                                        Used SQL to query the data and perform transformations and calculations on it.
+                                    </li>
+                                    <br>
+                                    <li>
+                                        Created data quality controls to monitor the general status of the warehouse.
+                                    </li>
+                                    <br>
+                                    <li>
+                                        Contributed to developing a linux bash script to automate the process of emailing the output of those data quality controls to the project team.
+                                    </li>
+                                    <br>
+                                    <li>
+                                        Constantly update data model, diagrams, Github wiki documentation. We learned how important good documentation is so we created data models using Drawio so that if any new members were added to the project, they would be able to understand what we have done quickly.
+                                    </li>
+                                    <br>
+                                    <li>
+                                        Utilized Tableau to create data visualizations and dashboards of the project's end goal. These dashboards will be used by managers and project stakeholders to allocate costs back to each team or develop more cost efficient strategies.
+                                    </li>
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--Contributions(end)-->
+
+    <div align="center" valign="middle">
+        <p>Copyright ©ArthikDasari</p>
+    </div>
+
+</body>
+</html>
